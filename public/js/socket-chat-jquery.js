@@ -53,7 +53,7 @@ function renderizarMensajes ( mensaje, yo ) {
   } else {
     html += '<li class="animated fadeIn">';
 
-    if ( mensaje.nombre !=== 'Administrador' ) {
+    if ( mensaje.nombre !== 'Administrador' ) {
       html += '    <div class="chat-img"><img src="assets/images/users/1.jpg" alt="user" /></div>';
     }
 
